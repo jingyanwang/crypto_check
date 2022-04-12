@@ -9,7 +9,8 @@ docker run -it ^
 -v "C:\Users\jimwa\Documents\proj_freelancer_220412\crypto_check":/crypto_check/ ^
 yanliang12/crypto_check:1.0.1 
 
-python3 crypto_check_flask_run.py
+
+docker run -it yanliang12/crypto_check:1.0.1 -p 0.0.0.0:9741:9741 python3 crypto_check_flask_run.py
 
 
 ############Dockerfile###########

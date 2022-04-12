@@ -21,7 +21,7 @@ def query_by_transaction_id(
 	page_url = 'https://trx.tokenview.com/en/tx/{}'.format(transaction_id)
 	tokenview_html = yan_web_page_download.download_page_from_url(
 		page_url = page_url,
-		curl_file = '/crypto_check/tokenview_curl.sh',
+		curl_file = 'tokenview_curl.sh',
 		redirect = True)
 	for r in re_page_attributes:
 		for m in re.finditer(r, tokenview_html):

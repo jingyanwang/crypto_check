@@ -6,9 +6,10 @@ Ng34ui378df
 docker push yanliang12/crypto_check:1.0.1
 
 docker run -it ^
--v "C:\Users\jimwa\Documents\proj_freelancer_220411\crypto_check":/crypto_check/ ^
+-v "C:\Users\jimwa\Documents\proj_freelancer_220412\crypto_check":/crypto_check/ ^
 yanliang12/crypto_check:1.0.1 
 
+python3 crypto_check_flask_run.py
 
 
 ############Dockerfile###########
@@ -39,6 +40,10 @@ RUN pip3 install xlrd==1.2.0
 RUN pip3 install xlsxwriter==1.2.8
 RUN pip3 install pprintpp==0.4.0
 
+RUN pip3 install Flask==2.1.1
+RUN pip3 install pprint36==3.9.0.2
+
+
 WORKDIR /
 
 ####
@@ -58,10 +63,15 @@ ENV PYSPARK_DRIVER_PYTHON=/usr/bin/python3
 
 WORKDIR /home/yan/
 
-RUN echo "ds6gs15gs6dg1s51"
+RUN echo "d4s5g1s2g1s2g1s5"
 
 RUN git clone https://github.com/yanliang12/yan_webpage_download.git
 RUN mv yan_webpage_download/* ./
 RUN rm -r yan_webpage_download
+
+
+RUN git clone https://github.com/jingyanwang/crypto_check.git
+RUN mv crypto_check/* ./
+RUN rm -r crypto_check
 
 ############Dockerfile############

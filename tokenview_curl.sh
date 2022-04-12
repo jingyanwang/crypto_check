@@ -1,0 +1,19 @@
+curl 'https://trx.tokenview.com/en/tx/da1d4e4787cf50e8e6c24865573ced6ec8d896982c4036df4cbe26e673da31ab?_ga=2.62275944.556824768.1649703952-1443260490.1649703951' \
+  -H 'authority: trx.tokenview.com' \
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'accept-language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7' \
+  -H 'cache-control: max-age=0' \
+  -H 'cookie: Hm_lvt_4fa10269bc1177fb7abc49c277a65c0b=1649703951; Hm_lvt_27b602badb95d70b1b0f7657bdbc5424=1649703951; _gid=GA1.2.556824768.1649703952; __gads=ID=3687fb5710395479-220ffdc51bd200a3:T=1649703954:RT=1649703954:S=ALNI_MbG6DLJodLjGKxptpb4dF-7_Y1knQ; lang=en; _ga_BQ73JH5XV0=GS1.1.1649703950.1.1.1649703968.0; _ga=GA1.2.1443260490.1649703951; Hm_lpvt_4fa10269bc1177fb7abc49c277a65c0b=1649703969; Hm_lpvt_27b602badb95d70b1b0f7657bdbc5424=1649703969' \
+  -H 'dnt: 1' \
+  -H 'if-none-match: "24cf2-R/+uO0FwfUH7XsAtlHU73SWchDU"' \
+  -H 'referer: https://tokenview.com/' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: document' \
+  -H 'sec-fetch-mode: navigate' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-user: ?1' \
+  -H 'upgrade-insecure-requests: 1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36' \
+  --compressed
